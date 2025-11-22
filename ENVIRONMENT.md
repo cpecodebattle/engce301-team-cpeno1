@@ -1,4 +1,4 @@
-# Environment Check – Group 1
+# Environment Check – Group 1 (CPE No.1)
 
 ## สมาชิก
 1. นายเมธิวัฒน์ ชมชื่น 67543206069-6
@@ -16,13 +16,13 @@
 - npm version: 10.9.0
 
 ### นายอชิตพล โอชารส
-- OS: Window 11
+- OS: Windows 11
 - Git version: 2.47.0.windows.2
 - Node.js version: v22.14.0
 - npm version: 10.9.2
 
 ### นายศราวุฒิ ข่ายแก้ว
-- OS: Window 11
+- OS: Windows 11
 - Git version: 2.40.1.windows.1
 - Node.js version: v22.14.0
 - npm version: 10.9.2
@@ -35,7 +35,7 @@
 - npm version: 
 
 ### นาย
-- OS: Window 10
+- OS: Windows 10
 - Git version: 2.51.1.windows.1 
 - Node.js version: v22.21.0
 - npm version: 10.9.4
