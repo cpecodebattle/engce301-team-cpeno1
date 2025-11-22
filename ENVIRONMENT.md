@@ -5,7 +5,7 @@
 2. นายอชิตพล โอชารส 67543206027-4
 3. นาย
 4. นาย
-5. นาย
+5. นายชาคริตส์ แก้วมูลเมือง 67543206005-0
 
 ## รายละเอียดเครื่องมือ
 
@@ -35,7 +35,7 @@
 - npm version: 
 
 ### นาย
-- OS: 
-- Git version: 
-- Node.js version: 
-- npm version: 
+- OS: Window 10
+- Git version: 2.51.1.windows.1 
+- Node.js version: v22.21.0
+- npm version: 10.9.4
