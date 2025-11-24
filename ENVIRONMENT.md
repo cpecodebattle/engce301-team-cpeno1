@@ -34,7 +34,7 @@
 - Node.js version: v24.3.0
 - npm version: 11.4.2
 
-### นาย
+### นายชาคริตส์ แก้วมูลเมือง
 - OS: Windows 10
 - Git version: 2.51.1.windows.1 
 - Node.js version: v22.21.0
