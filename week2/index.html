@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[คำอธิบายโปรเจกต์สั้นๆ 150-160 ตัวอักษร]">
+    <meta name="keywords" content="[คีย์เวิร์ดสำคัญ]">
+    <meta name="author" content="Group XX - ENGCE301">
+    <title>Events Hub - ENGCE301 Term Project</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    
+    <!-- Google Fonts (ถ้าใช้) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- =========================== HEADER =========================== -->
+    <header class="main-header">
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <h1>Events Hub</h1>
+                <!-- หรือใช้รูปภาพ: <img src="assets/images/logo.png" alt="Logo"> -->
+            </div>
+            
+            <!-- Navigation Menu -->
+            <!-- <nav class="main-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav> -->
+            <div class="menu">
+  <a href="#" class="link">
+    <span class="link-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+</svg>
+    </span>
+    <span class="link-title">Home</span>
+  </a>
+
+  <a href="#home" class="link">
+    <span class="link-icon">
+     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 0 0 1.5-.189m-1.5.189a6.01 6.01 0 0 1-1.5-.189m3.75 7.478a12.06 12.06 0 0 1-4.5 0m3.75 2.383a14.406 14.406 0 0 1-3 0M14.25 18v-.192c0-.983.658-1.823 1.508-2.316a7.5 7.5 0 1 0-7.517 0c.85.493 1.509 1.333 1.509 2.316V18" />
+</svg>
+
+
+    </span>
+    <span class="link-title">features</span>
+  </a>
+  <a href="#features" class="link">
+    <span class="link-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="192"
+        height="192"
+        fill="currentColor"
+        viewBox="0 0 256 256"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <path
+          d="M45.42853,176.99811A95.95978,95.95978,0,1,1,79.00228,210.5717l.00023-.001L45.84594,220.044a8,8,0,0,1-9.89-9.89l9.47331-33.15657Z"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></path>
+        <line
+          x1="96"
+          y1="112"
+          x2="160"
+          y2="112"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></line>
+        <line
+          x1="96"
+          y1="144"
+          x2="160"
+          y2="144"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></line>
+      </svg>
+    </span>
+    <span class="link-title">About</span>
+  </a>
+
+  <a href="#about" class="link">
+    <span class="link-icon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-people" viewBox="0 0 16 16">
+  <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1L7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002-.014.002zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a6 6 0 0 0-1.23-.247A7 7 0 0 0 5 9c-4 0-5 3-5 4q0 1 1 1h4.216A2.24 2.24 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.5 5.5 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
+</svg>
+</span>
+    <span class="link-title">Team</span>
+  </a>
+
+  
+  <a href="#team" class="link">
+    <span class="link-icon">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="192"
+        height="192"
+        fill="currentColor"
+        viewBox="0 0 256 256"
+      >
+        <rect width="256" height="256" fill="none"></rect>
+        <circle
+          cx="128"
+          cy="96"
+          r="64"
+          fill="none"
+          stroke="currentColor"
+          stroke-miterlimit="10"
+          stroke-width="16"
+        ></circle>
+        <path
+          d="M30.989,215.99064a112.03731,112.03731,0,0,1,194.02311.002"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="16"
+        ></path>
+      </svg>
+    </span>
+    <span class="link-title">Contact</span>
+  </a>
+</div>
+        </div>
+    </header>
+
+    <!-- =========================== MAIN CONTENT =========================== -->
+    <main>
+        
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <h2 class="hero-title">
+                    ศูนย์รวมที่ให้คุณไม่พลาดทุกกระแสกิจกรรม
+                </h2>
+                <p class="hero-description">
+                    Events Hub คือแพลตฟอร์มศูนย์รวมกิจกรรมครบวงจรที่จะทำให้คุณไม่พลาดทุกกระแสสำคัญ เราเชื่อมโยงคุณเข้ากับงานสัมมนา เวิร์กช็อป และประสบการณ์ที่หลากหลาย เพื่อปลดล็อกโอกาสใหม่ๆ และสร้างแรงบันดาลใจในทุกวัน
+                </p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary">Get Started</button>
+                    <button class="btn btn-secondary">Learn More</button>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Problem Statement Section -->
+        <section id="problem" class="problem-section">
+            <div class="container">
+                <h2>The Problem We're Solving</h2>
+                <p>
+                    [อธิบายปัญหาที่พบจาก User Interview - Pain Points]
+                </p>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features-section">
+            <div class="container">
+                <h2>Key Features</h2>
+                <p class="section-description">
+                    [สรุปย่อว่ามีฟีเจอร์อะไรบ้าง]
+                </p>
+                
+                <div class="features-grid">
+                    <!-- Feature Card 1 -->
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <!-- ใส่ไอคอนหรือรูปภาพ -->
+                            <span>🎯</span>
+                        </div>
+                        <h3>[ชื่อฟีเจอร์ 1]</h3>
+                        <p>[คำอธิบายสั้นๆ ว่าฟีเจอร์นี้ทำอะไร]</p>
+                    </article>
+
+                    <!-- Feature Card 2 -->
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <span>📊</span>
+                        </div>
+                        <h3>[ชื่อฟีเจอร์ 2]</h3>
+                        <p>[คำอธิบายสั้นๆ]</p>
+                    </article>
+
+                    <!-- Feature Card 3 -->
+                    <article class="feature-card">
+                        <div class="feature-icon">
+                            <span>🔐</span>
+                        </div>
+                        <h3>[ชื่อฟีเจอร์ 3]</h3>
+                        <p>[คำอธิบายสั้นๆ]</p>
+                    </article>
+
+                    <!-- เพิ่ม feature cards ตามความเหมาะสม (แนะนำ 4-6 อัน) -->
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-section">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="steps">
+                    <article class="step">
+                        <span class="step-number">1</span>
+                        <h3>[ขั้นตอนที่ 1]</h3>
+                        <p>[อธิบาย]</p>
+                    </article>
+                    
+                    <article class="step">
+                        <span class="step-number">2</span>
+                        <h3>[ขั้นตอนที่ 2]</h3>
+                        <p>[อธิบาย]</p>
+                    </article>
+                    
+                    <article class="step">
+                        <span class="step-number">3</span>
+                        <h3>[ขั้นตอนที่ 3]</h3>
+                        <p>[อธิบาย]</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2>About This Project</h2>
+                <p>
+                    [บอกเล่าเพิ่มเติมเกี่ยวกับโปรเจกต์ - แรงบันดาลใจ, วัตถุประสงค์]
+                </p>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="team-section">
+            <div class="container">
+                <h2>Our Team</h2>
+                <div class="team-grid">
+                    <!-- Team Member 1 -->
+                    <article class="team-member">
+                        <img src="assets/images/แสก.png" alt="Member Name">
+                        <h3>[ชื่อสมาชิก 1]</h3>
+                        <p class="role">[Role: Product Owner / Developer / Designer]</p>
+                        <p class="student-id">[รหัสนักศึกษา]</p>
+                    </article>
+
+                    <!-- Team Member 2 -->
+                    <article class="team-member">
+                        <img src="assets/images/แสก.png"" alt="Member Name">
+                        <h3>[ชื่อสมาชิก 2]</h3>
+                        <p class="role">[Role]</p>
+                        <p class="student-id">[รหัสนักศึกษา]</p>
+                    </article>
+
+                    <article class="team-member">
+                        <img src="assets/images/นาง.jpg"" alt="Member Name">
+                        <h3>[ชื่อสมาชิก 3]</h3>
+                        <p class="role">[Role]</p>
+                        <p class="student-id">[รหัสนักศึกษา]</p>
+                    </article>
+
+                    <article class="team-member">
+                        <img src="assets/images/แสก.png"" alt="Member Name">
+                        <h3>[ชื่อสมาชิก 4]</h3>
+                        <p class="role">[Role]</p>
+                        <p class="student-id">[รหัสนักศึกษา]</p>
+                    </article>
+
+                    <article class="team-member">
+                        <img src="assets/images/แสก.png"" alt="Member Name">
+                        <h3>[ชื่อสมาชิก 5]</h3>
+                        <p class="role">[Role]</p>
+                        <p class="student-id">[รหัสนักศึกษา]</p>
+                    </article>
+                    <!-- เพิ่มสมาชิกทุกคนในกลุ่ม -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/CTA Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2>Interested in Our Project?</h2>
+                <p>[Call-to-Action message]</p>
+                <button class="btn btn-primary">Contact Us</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- =========================== ASIDE (Optional) =========================== -->
+    <aside class="sidebar">
+        <!-- ถ้ามี Sidebar เช่น Latest Updates, Quick Links -->
+    </aside>
+
+    <!-- =========================== FOOTER =========================== -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Footer Info -->
+                <div class="footer-info">
+                    <h4>[ชื่อโปรเจกต์]</h4>
+                    <p>ENGCE301: Software Design and Development</p>
+                    <p>Term Project - Group XX</p>
+                    <p>Rajamangala University of Technology Lanna</p>
+                </div>
+
+                <!-- Footer Links -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="https://github.com/[username]/[repo]" target="_blank">GitHub Repository</a></li>
+                        <li><a href="SRS_Draft.md">View SRS Document</a></li>
+                    </ul>
+                </div>
+
+                <!-- Footer Contact -->
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>📧 Email: [group-email]@rmutl.ac.th</p>
+                    <p>📱 Tel: XXX-XXX-XXXX</p>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 [ชื่อโปรเจกต์]. All rights reserved.</p>
+                <p>Developed with ❤️ by Group 1</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

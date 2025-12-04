@@ -1,0 +1,17 @@
+# Node modules (ถ้ามีในอนาคต)
+node_modules/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+
+# Build files
+dist/
+build/
